@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-body">
+        <blockquote class="blockquote">
+            <footer class="blockquote-footer mt-2">{{todo.title}}</footer>
+            <hr>
+            <p class="fs-6">{{todo.desc}}</p>
+        </blockquote>
+        <div class="d-flex justify-content-center">
+            <button type="submit" (click)="delTodo(todo)" class="btn btn-sm btn-outline-danger">Delete Todo</button>
+        </div>
+    </div>
+</div>
+
+<!-- <h3>{{todo.title}} - {{todo.desc}}</h3>
+<button (click)="delTodo(todo)" >delete</button> -->
